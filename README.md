@@ -63,14 +63,13 @@ The Monthly Footprint sheet is the mart table and the primary data source for Ta
 
 ```
 /
-├── README.md                   # Project overview (this file)
-├── METHODOLOGY.md              # Emissions factor sourcing and conversion math
-├── CHANGELOG.md                # Version history and data updates
-├── LIMITATIONS.md              # Known constraints and caveats
+├── README.md                           # Project overview (this file)
+├── METHODOLOGY.md                      # Emissions factor sourcing and conversion math
+├── CHANGELOG.md                        # Version history and data updates
+├── LIMITATIONS.md                      # Known constraints and caveats
 ├── LICENSE
 ├── /data
-│   ├── nwnatural_raw.xlsx      # NW Natural Green Button export, unmodified
-│   └── pge_raw.xlsx            # PGE Green Button export, unmodified
+│   ├── home_energy_emissions.xlsx      # Master workbook containing raw utility data
 └── /viz
     └── [Tableau Public link or screenshots]
 ```
@@ -105,7 +104,7 @@ Dashboard to be built in Tableau (expected by May 15, 2026). Panels include:
 - Electricity consumption (kWh / month)
 - Total household carbon footprint (tCO₂e / month)
 
-*[Tableau Public link placeholder]*
+*https://public.tableau.com/views/home_energy_emissions/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link*
 
 ---
 
